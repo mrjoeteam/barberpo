@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add any custom base styles or layer overrides here */
+body {
+  /* You can add very specific global overrides here if needed, */
+  /* but most styling should be done via Tailwind classes. */
+  /* For example, ensuring a default scrollbar behavior */
+  scrollbar-width: thin;
+  scrollbar-color: #8A2BE2 #111111;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8A2BE2;
+  border-radius: 10px;
+  border: 2px solid #111111;
+}
